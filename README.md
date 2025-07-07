@@ -13,4 +13,10 @@ Um projeto de **diário pessoal** desenvolvido com **HTML5** e **CSS3**, ideal p
    ```bash
    git clone https://github.com/dayanamrd/meudiario.git
    cd meudiario
+   
+
+   ## 🌐 Veja Online
+
+Você pode visualizar o projeto online aqui:  
+🔗 [https://dayanamrd.github.io/meudiario/](https://dayanamrd.github.io/meudiario/)
 
