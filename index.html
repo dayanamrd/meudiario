@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Diário</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Meu Diário</h1>
+    <p>Meu projeto para estudo de programação</p>
+  </header>
+
+  <main>
+    <section class="posts">
+      <article>
+        <h2>🖥️ Domingo: Dia de relaxar e estudar programção</h2>
+        <p class="conteudo">
+          <time datetime="2025-07-06">06 de julho de 2025</time>
+        </p>
+        <p>Hoje eu consegui acordar cedo, tomar um bom café e focar nos estudos. Estou aprendendo programação e estou
+          animada com o progresso!
+        <p>O que aprendi hoje:</p>
+        <ul>
+          <li>🌟 A unidade rem no CSS significa "root em" e é uma forma relativa de definir tamanhos — especialmente
+            útil
+            para fontes, espaçamentos, margens, paddings etc.</li>
+          <li>🌟 Como funciona a proprieda box-shadow</li>
+          <li>🌟 Utilizar a tag iframe</li>
+          <li>🌟 Conheci a propriedade resize, que é usada é usada para controlar se o usuário pode redimensionar
+            umelemento</li>
+          <li>🌟 Aprendi a criar formulários</li>
+        </ul>
+
+        A música Left on Mars, do baixista e cantor Marco Hietala, me acompanhou durante o dia.
+        </p>
+        <iframe style="border-radius:12px"
+          src="https://open.spotify.com/embed/track/4zlECZBJ3PABRywtQYUWas?utm_source=generator" width="100%"
+          height="352" frameBorder="0" allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+        </iframe>
+      </article>
+
+      <article>
+        <h2>🦇 Back to the Beginning! A festa de despedida do Black Sabbath</h2>
+        <p class="conteudo">
+          <time datetime="2025-07-05">05 de julho de 2025</time>
+        </p>
+        <p>Hoje assisti ao vivo, online, o evento Back to the Beginning, a despedida oficial do Black Sabbath, e achei
+          simplesmente demais! Foi uma viagem lá na minha adolescência, quando ouvi pela primeira vez as músicas deles e
+          me apaixonei pelo som.
+
+          O Black Sabbath foi uma banda que marcou muito o cenário musical, influenciando uma porção de artistas e fãs
+          pelo mundo todo. E ver o Ozzy Osbourne cantando ao vivo, mesmo depois de tanto tempo, foi emocionante demais —
+          ele ainda tem aquela presença única que ninguém consegue igualar.
+
+          Quando ele começou a cantar Mama, I'm Coming Home, senti uma emoção muito forte, parecia que o tempo parou por
+          um momento. A voz do Ozzy, cheia de sentimento, trouxe uma mistura de nostalgia e uma espécie de despedida de
+          verdade, que me arrepiou até a alma.
+
+          Foi uma despedida triste, mas ao mesmo tempo incrível, porque pude relembrar todos os momentos que essa banda
+          me proporcionou. Foi aquela sensação boa de nostalgia e gratidão por tudo que eles fizeram pelo
+          rock.</p>
+        <img src="RH-2025-07-05-4434.jpg" alt="Vocalista Ozzy Ousborne">
+      </article>
+
+      <article>
+        <h2>🚀 See you Space Cowboy! Hoje bateu saudade do anime Cowboy Bebop!</h2>
+        <p class="conteudo">
+          <time datetime="2025-07-04">04 de julho de 2025</time>
+        </p>
+        <p>Hoje bateu uma saudade enorme, e resolvi reassistir Cowboy Bebop. Fazia um tempo que eu não mergulhava nesse
+          universo, e foi como reencontrar um velho amigo.
+
+          Desde a trilha sonora marcante até os personagens cheios de camadas, tudo me prendeu de novo como se fosse a
+          primeira vez. A vibe melancólica, meio solitária, misturada com ação e aquela estética retrô futurista... é
+          algo único. Não tem jeito, esse anime sempre vai ter um lugar especial no meu coração.
+
+          Ver o Spike, a Faye, o Jet e a Ed de novo foi como revisitar um pedaço da minha memória. Cada episódio carrega
+          um clima diferente, mas todos têm aquela mesma alma que só Cowboy Bebop sabe transmitir.
+
+          See you, space cowboy!</p>
+        <img src="cowboy3.jpg" alt="Personagens do anime cowboy bebop.">
+      </article>
+    </section>
+
+    <section class="novo-post">
+      <h2>✏️Adicionar novas memórias </h2>
+      <form>
+        <label for="titulo">Título</label>
+        <input type="text" id="titulo" name="titulo" placeholder="Título do post" required>
+
+        <label for="data">Data</label>
+        <input type="date" id="data" name="data" required>
+
+        <label for="conteudo">Conteúdo</label>
+        <textarea id="conteudo" name="conteudo" rows="5" placeholder="Escreva aqui..." required></textarea>
+
+        <button type="submit">Publicar </button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com ❤️ por Dayana Miranda</p>
+  </footer>
+</body>
+
+</html>

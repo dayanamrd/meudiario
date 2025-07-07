@@ -1,0 +1,163 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://img.goodfon.com/original/1920x1080/d/1a/gaming-room-aesthetic-interior-asus-rog-retro-style-gaming-c.jpg'); 
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat;  
+  background-attachment: fixed;                 
+}
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #F9F9F9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #F9F9F9;  
+}
+
+header p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #F9F9F9;
+  text-shadow: 2px 2px 5px rgb(157, 83, 163);
+}
+
+/* Conteúdo principal */
+.posts {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+article {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+article h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+article .conteudo {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px 0 20px 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+iframe {
+    margin-top: 10px;
+}
+
+/* Footer*/
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #AAA;
+  font-size: 0.9rem;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  body {
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  article h2 {
+    font-size: 1.2rem;
+  }
+}
+
+.novo-post {
+  max-width: 800px;
+  margin: 40px auto 0;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.novo-post h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: 500;
+  color: #444;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  background-color: #FEFEFE;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color:rgb(94, 47, 104);
+  color: #FFFFFF;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color:rgb(110, 55, 108);
+}
